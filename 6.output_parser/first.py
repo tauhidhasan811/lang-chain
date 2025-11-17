@@ -23,6 +23,11 @@ template2 = PromptTemplate(
 
 promt1 = template1.invoke({'topic': 'black hole'})
 
-result = model.invoke(promt1)
+result1 = model.invoke(promt1)
 
-prompt2 = template2.invoke({'text': result.content})
+print(f"\n\nFirst result : {result1.content}")
+
+prompt2 = template2.invoke({'text': result1.content})
+result2 = model.invoke(prompt2)
+
+print(f"\n\Secount result : {result2.content}")
