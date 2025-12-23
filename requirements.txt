@@ -38,3 +38,5 @@ langgraph
 duckduckgo-search
 
 ddgs
+
+langchainhub
