@@ -2,6 +2,7 @@
 # LangChain Core
 langchain
 langchain-core
+langchain-community
 
 # OpenAI Integration
 langchain-openai
@@ -30,3 +31,10 @@ scikit-learn
 
 # Lang Graph
 langgraph
+
+
+#ipykernel
+
+duckduckgo-search
+
+ddgs
