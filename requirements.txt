@@ -35,8 +35,9 @@ langgraph
 
 #ipykernel
 
-duckduckgo-search
+#For Search
+duckduckgo-search 
+
 
 ddgs
-
 langchainhub
